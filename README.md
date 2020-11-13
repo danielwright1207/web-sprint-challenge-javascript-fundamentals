@@ -31,15 +31,14 @@ forEach and map are similair in that they both iterate through every item in the
 2. Explain the difference between a callback and a higher order function.
 
 callbacks are passed into higher order functions as arguments, higher order functions receive callbacks
-
-3. What is closure?
+HOF that take in a function as a argument or return a function out of it 3. What is closure?
 
 closure is the ability to put functions together, as well as the ability to access functions from parent level scope in child level scope even after parent functions have been terminated
 
 4. Describe the four rules of the 'this' keyword.
-   implicit binding- most common rule, when function is invoked, look to the left of the dot. only applies to ojects with method
+   implicit binding- most common rule, when function is invoked, look to the left of the dot. only applies to objects with method
    window binding- if no other rule applies this defaults to the window
-   explicit binding - .call (immediately invoke the function argurments are passed 1 by 1), .apply(immediately invoke the function, pass arguemtns as an array), .bind (pass arguements 1 by 1 but doesnt immediately invoke the function, returns a new function that can be invoked later)
+   explicit binding - .call (immediately invoke the function argurments are passed 1 by 1), .apply(immediately invoke the function, pass arguments as an array), .bind (pass arguements 1 by 1 but doesnt immediately invoke the function, returns a new function that can be invoked later)
    new binding - using new keyword constructs a new object and the this keyword points to the new object
 
 5. Why do we need super() in an extended class?
